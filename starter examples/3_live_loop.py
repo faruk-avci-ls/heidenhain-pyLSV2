@@ -18,4 +18,7 @@ while True:
     print(f"Feed: {override.feed}% Rapid: {override.rapid}% Speed: {override.spindle}%")
     time.sleep(0.2)
 
-
+# Sample output from a real Heidenhain TNC600 series machine:
+# X: 65.663, Y: -32.719, Z: -2.097472, Feed: 100.0% , Speed:  100.0% , Rapid: 100.0% 
+# X: 65.663, Y: -32.719, Z: 0.499594, Feed: 100.0% , Speed:  100.0% , Rapid: 100.0% 
+# X: 65.663, Y: -32.719, Z: 5.193796, Feed: 100.0% , Speed:  100.0% , Rapid: 100.0%
